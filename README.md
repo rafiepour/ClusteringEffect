@@ -5,11 +5,12 @@ This repository is divided into two sections. The _Experiments_ directory contai
 Our article can be viewed and downloaded from [https://arxiv.org/abs/2501.06721](https://arxiv.org/abs/2501.06721).
 #### A GPU is not required nor used for these experiments. Linux OS might be necessary.
 ## Experiments
-*LinkPrediction.ipynb*: calculates the average clustering coefficient and the link prediction AUC for a given graph using Heterogeneity Index, Homogeneity Index and the Jaccard Index
-*Exp1-2_InflectionRunner.ipynb*: Calculates the average clustering coefficient, Jaccard Index, Heterogeneity Index, Homogeneity Index for different link formation probabilities $d$ until the threshold is found.
-*Exp3_GraphOrder.ipynb*: Calculates the boundary for different graph sizes
-*rafie_model.ipynb*: Alters a given graph $G$ with probability $d$, increasing its average clustering coefficient while maintaining heterogeneity
+*LinkPrediction.ipynb*: calculates the average clustering coefficient and the link prediction AUC for a given graph using Heterogeneity Index, Homogeneity Index and the Jaccard Index \
+*Exp1-2_InflectionRunner.ipynb*: Calculates the average clustering coefficient, Jaccard Index, Heterogeneity Index, Homogeneity Index for different link formation probabilities $d$ until the threshold is found.\
+*Exp3_GraphOrder.ipynb*: Calculates the boundary for different graph sizes\
+*rafie_model.ipynb*: Alters a given graph $G$ with probability $d$, increasing its average clustering coefficient while maintaining heterogeneity\
 *OGBConvert.ipynb*: Converts OGBL npy objects to CSV edge list for link prediction
+
 ## OBGL
 This section is a fork of [SEAL_OGB](https://github.com/facebookresearch/SEAL_OGB). To use it, execute the following command:
 ```
@@ -32,7 +33,7 @@ If you use our work in your research, please cite it as:
 ```
 ## License
 OBGL directory:
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\
 Experiments Directory:
  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br>
    Unless required by applicable law or agreed to in writing, software
